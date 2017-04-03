@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50619
 File Encoding         : 65001
 
-Date: 2017-04-03 18:02:45
+Date: 2017-04-03 20:48:44
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -89,7 +89,7 @@ CREATE TABLE `song` (
 INSERT INTO `song` VALUES ('0to1', 'Step! ZERO to ONE', '2015-10-07', 'Aqours', '/aqours/1.jpg', '2017-04-01 01:57:15', '0', '2017-04-03 01:35:03');
 INSERT INTO `song` VALUES ('bd1', 'Pops heartで踊るんだもん！', '2016-09-27', 'Aqours', '/aqours/10.jpg', '2017-04-03 17:38:04', '0', '2017-04-03 17:38:04');
 INSERT INTO `song` VALUES ('bd2', '空も心も晴れるから', '2016-10-26', 'Aqours', '/aqours/11_1.jpg', '2017-04-03 17:38:48', '0', '2017-04-03 17:38:48');
-INSERT INTO `song` VALUES ('bd3', 'Waku-Waku-Week!', '2016-11-25', 'Aqours', '/aqours/14.jpg', '2017-04-03 17:39:12', '0', '2017-04-03 17:39:12');
+INSERT INTO `song` VALUES ('bd3', 'Waku-Waku-Week!', '2016-11-25', 'Aqours', '/aqours/14_1.jpg', '2017-04-03 17:39:12', '0', '2017-04-03 17:39:12');
 INSERT INTO `song` VALUES ('bd4', 'Daydream Warrior', '2016-12-22', 'Aqours', '/aqours/15.jpg', '2017-04-03 17:39:54', '0', '2017-04-03 17:39:54');
 INSERT INTO `song` VALUES ('bd5', 'G線上のシンデレラ', '2017-01-27', 'Aqours', '/aqours/16.jpg', '2017-04-03 17:40:28', '0', '2017-04-03 17:40:28');
 INSERT INTO `song` VALUES ('bd6', 'スリリング·ワンウェイ', '2017-02-24', 'Aqours', '/aqours/17_1.jpg', '2017-04-03 17:40:46', '0', '2017-04-03 17:40:46');

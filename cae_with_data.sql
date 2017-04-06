@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50619
 File Encoding         : 65001
 
-Date: 2017-04-06 16:33:58
+Date: 2017-04-06 16:49:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -87,38 +87,40 @@ CREATE TABLE `song` (
 -- ----------------------------
 -- Records of song
 -- ----------------------------
-INSERT INTO `song` VALUES ('0to1', 'Step! ZERO to ONE', '2015-10-07', 'Aqours', '/aqours/1.jpg', '2017-04-01 01:57:15', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('bd1', 'Pops heartで踊るんだもん！', '2016-09-27', 'Aqours', '/aqours/10.jpg', '2017-04-03 17:38:04', '0', '2017-04-03', '0');
+INSERT INTO `song` VALUES ('0to1', 'Step! ZERO to ONE', '2015-10-07', 'Aqours', '/aqours/1.jpg', '2017-04-01 01:57:15', '0', '2017-04-03', '3');
+INSERT INTO `song` VALUES ('bd1', 'Pops heartで踊るんだもん！', '2016-09-27', 'Aqours', '/aqours/10.jpg', '2017-04-03 17:38:04', '0', '2017-04-03', '20');
 INSERT INTO `song` VALUES ('bd2', '空も心も晴れるから', '2016-10-26', 'Aqours', '/aqours/11_1.jpg', '2017-04-03 17:38:48', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('bd3', 'Waku-Waku-Week!', '2016-11-25', 'Aqours', '/aqours/14_1.jpg', '2017-04-03 17:39:12', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('bd4', 'Daydream Warrior', '2016-12-22', 'Aqours', '/aqours/15.jpg', '2017-04-03 17:39:54', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('bd5', 'G線上のシンデレラ', '2017-01-27', 'Aqours', '/aqours/16.jpg', '2017-04-03 17:40:28', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('bd6', 'スリリング·ワンウェイ', '2017-02-24', 'Aqours', '/aqours/17_1.jpg', '2017-04-03 17:40:46', '0', '2017-04-03', '0');
+INSERT INTO `song` VALUES ('bd3', 'Waku-Waku-Week!', '2016-11-25', 'Aqours', '/aqours/14_1.jpg', '2017-04-03 17:39:12', '0', '2017-04-03', '24');
+INSERT INTO `song` VALUES ('bd4', 'Daydream Warrior', '2016-12-22', 'Aqours', '/aqours/15.jpg', '2017-04-03 17:39:54', '0', '2017-04-03', '25');
+INSERT INTO `song` VALUES ('bd5', 'G線上のシンデレラ', '2017-01-27', 'Aqours', '/aqours/16.jpg', '2017-04-03 17:40:28', '0', '2017-04-03', '26');
+INSERT INTO `song` VALUES ('bd6', 'スリリング·ワンウェイ', '2017-02-24', 'Aqours', '/aqours/17_1.jpg', '2017-04-03 17:40:46', '0', '2017-04-03', '27');
 INSERT INTO `song` VALUES ('bd7', '太陽を追いかけろ!', '2017-03-24', 'Aqours', '/aqours/18_2.jpg', '2017-04-03 17:41:14', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('daiai', '待ってて愛のうた', '2016-04-27', 'Aqours', '/aqours/2.jpg', '2017-04-03 17:25:22', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('daisuki', 'ダイスキだったらダイジョウブ!', '2016-08-03', 'Aqours', '/aqours/7.jpg', '2017-04-03 17:31:56', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('daydayday', '元気全開DAY！DAY！DAY！', '2016-05-11', 'CYaRon!', '/aqours/3.jpg', '2017-04-03 17:26:10', '0', '2017-04-03', '0');
+INSERT INTO `song` VALUES ('daiai', '待ってて愛のうた', '2016-04-27', 'Aqours', '/aqours/2.jpg', '2017-04-03 17:25:22', '0', '2017-04-03', '5');
+INSERT INTO `song` VALUES ('daisuki', 'ダイスキだったらダイジョウブ!', '2016-08-03', 'Aqours', '/aqours/7.jpg', '2017-04-03 17:31:56', '0', '2017-04-03', '16');
+INSERT INTO `song` VALUES ('daydayday', '元気全開DAY！DAY！DAY！', '2016-05-11', 'CYaRon!', '/aqours/3.jpg', '2017-04-03 17:26:10', '0', '2017-04-03', '7');
 INSERT INTO `song` VALUES ('dj', 'LONELY TUNING', '2017-03-24', 'AZALEA', '/aqours/19_3.jpg', '2017-04-03 17:42:39', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('ed', 'ユメ語るよりユメ歌おう', '2016-08-24', 'Aqours', '/aqours/8.jpg', '2017-04-03 17:32:12', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('ed/cw', 'サンシャインぴっかぴか音頭', '2016-08-24', 'Aqours', '/aqours/8.jpg', '2017-04-03 17:32:25', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('fenleixue', 'ときめき分類学', '2016-05-25', 'AZALEA', '/aqours/4.jpg', '2017-04-03 17:27:52', '0', '2017-04-03', '0');
+INSERT INTO `song` VALUES ('ed', 'ユメ語るよりユメ歌おう', '2016-08-24', 'Aqours', '/aqours/8.jpg', '2017-04-03 17:32:12', '0', '2017-04-03', '17');
+INSERT INTO `song` VALUES ('ed/cw', 'サンシャインぴっかぴか音頭', '2016-08-24', 'Aqours', '/aqours/8.jpg', '2017-04-03 17:32:25', '0', '2017-04-03', '18');
+INSERT INTO `song` VALUES ('fenleixue', 'ときめき分類学', '2016-05-25', 'AZALEA', '/aqours/4.jpg', '2017-04-03 17:27:52', '0', '2017-04-03', '10');
 INSERT INTO `song` VALUES ('fever', 'Guilty Eyes Fever', '2017-03-24', 'GuiltyKiss', '/aqours/19_1.jpg', '2017-04-03 17:42:04', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('gkgn', 'Guilty Kiss, Guilty Night', '2016-06-08', 'GuiltyKiss', '/aqours/5.jpg', '2017-04-01 01:57:15', '2', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('handinhand', '決めたよHand in Hand', '2016-08-03', 'Aqours', '/aqours/7.jpg', '2017-04-03 17:31:29', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('heros', 'Aqours☆HEROES', '2015-10-07', 'Aqours', '/aqours/1.jpg', '2017-04-01 01:57:15', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('jiexing', '届かない星だとしても', '2016-04-27', 'Aqours', '/aqours/2.jpg', '2017-04-03 17:25:37', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('kimikoko', '君のこころは輝いてるかい？', '2015-10-07', 'Aqours', '/aqours/1.jpg', '2017-04-03 17:21:48', '0', '2017-04-03', '0');
+INSERT INTO `song` VALUES ('gkgn', 'Guilty Kiss, Guilty Night', '2016-06-08', 'GuiltyKiss', '/aqours/5.jpg', '2017-04-01 01:57:15', '3', '2017-04-03', '12');
+INSERT INTO `song` VALUES ('handinhand', '決めたよHand in Hand', '2016-08-03', 'Aqours', '/aqours/7.jpg', '2017-04-03 17:31:29', '0', '2017-04-03', '15');
+INSERT INTO `song` VALUES ('heros', 'Aqours☆HEROES', '2015-10-07', 'Aqours', '/aqours/1.jpg', '2017-04-01 01:57:15', '0', '2017-04-03', '2');
+INSERT INTO `song` VALUES ('jiexing', '届かない星だとしても', '2016-04-27', 'Aqours', '/aqours/2.jpg', '2017-04-03 17:25:37', '0', '2017-04-03', '6');
+INSERT INTO `song` VALUES ('kimikoko', '君のこころは輝いてるかい？', '2015-10-07', 'Aqours', '/aqours/1.jpg', '2017-04-03 17:21:48', '0', '2017-04-03', '1');
 INSERT INTO `song` VALUES ('mengyekong', '夢で夜空を照らしたい', '2016-09-14', 'Aqours', '/aqours/9.jpg', '2017-04-03 17:34:02', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('mt', 'MIRAI TICKET', '2016-11-09', 'Aqours', '/aqours/12.jpg', '2017-04-03 17:35:36', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('op', '青空Jumping Heart', '2016-07-20', 'Aqours', '/aqours/6.jpg', '2017-04-03 17:29:18', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('op/cw', 'ハミングフレンド', '2016-07-20', 'Aqours', '/aqours/6.jpg', '2017-04-03 17:30:50', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('please', 'トリコリコPLEASE!!', '2016-05-25', 'AZALEA', '/aqours/4.jpg', '2017-04-03 17:27:36', '0', '2017-04-03', '0');
+INSERT INTO `song` VALUES ('mt', 'MIRAI TICKET', '2016-11-09', 'Aqours', '/aqours/12.jpg', '2017-04-03 17:35:36', '0', '2017-04-03', '22');
+INSERT INTO `song` VALUES ('op', '青空Jumping Heart', '2016-07-20', 'Aqours', '/aqours/6.jpg', '2017-04-03 17:29:18', '0', '2017-04-03', '13');
+INSERT INTO `song` VALUES ('op/cw', 'ハミングフレンド', '2016-07-20', 'Aqours', '/aqours/6.jpg', '2017-04-03 17:30:50', '0', '2017-04-03', '14');
+INSERT INTO `song` VALUES ('please', 'トリコリコPLEASE!!', '2016-05-25', 'AZALEA', '/aqours/4.jpg', '2017-04-03 17:27:36', '0', '2017-04-03', '9');
 INSERT INTO `song` VALUES ('ps', 'P.S.の向こう侧', '2017-03-24', 'CYaRon!', '/aqours/19_2.jpg', '2017-04-03 17:42:22', '0', '2017-04-03', '0');
 INSERT INTO `song` VALUES ('sandan', 'HAPPY PARTY TRAIN', '2017-04-05', 'Aqours', '/aqours/20.jpg', '2017-04-03 17:37:13', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('shengdan', 'ジングルベルがとまらない', '2016-11-23', 'Aqours', '/aqours/13.jpg', '2017-04-03 17:36:17', '0', '2017-04-03', '0');
+INSERT INTO `song` VALUES ('shengdan', 'ジングルベルがとまらない', '2016-11-23', 'Aqours', '/aqours/13.jpg', '2017-04-03 17:36:17', '0', '2017-04-03', '23');
 INSERT INTO `song` VALUES ('shengri', '聖なる日の祈り', '2016-11-23', 'Aqours', '/aqours/13.jpg', '2017-04-03 17:36:35', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('shuizuguan', '恋になりたい AQUARIUM', '2016-04-27', 'Aqours', '/aqours/2.jpg', '2017-04-03 17:24:39', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('st', 'Strawberry Trapper', '2016-06-08', 'GuiltyKiss', '/aqours/5.jpg', '2017-04-03 17:28:37', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('weishu', '未熟DREAMER', '2016-09-14', 'Aqours', '/aqours/9.jpg', '2017-04-03 17:34:47', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('xiangyi', '想いよひとつになれ', '2016-11-09', 'Aqours', '/aqours/12.jpg', '2017-04-03 17:35:51', '0', '2017-04-03', '0');
-INSERT INTO `song` VALUES ('yekong', '夜空はなんでも知ってるの', '2016-05-11', 'CYaRon!', '/aqours/3.jpg', '2017-04-03 17:26:50', '1', '2017-04-03', '0');
+INSERT INTO `song` VALUES ('shojo', '少女以上の恋がしたい', '2017-04-05', 'Aqours', '/aqours/20.jpg', '2017-04-06 16:49:01', '0', '2017-04-06', '0');
+INSERT INTO `song` VALUES ('shuizuguan', '恋になりたい AQUARIUM', '2016-04-27', 'Aqours', '/aqours/2.jpg', '2017-04-03 17:24:39', '0', '2017-04-03', '4');
+INSERT INTO `song` VALUES ('sj', 'SKY JOURNEY', '2017-04-05', 'Aqours', '/aqours/20.jpg', '2017-04-06 16:48:24', '0', '2017-04-06', '0');
+INSERT INTO `song` VALUES ('st', 'Strawberry Trapper', '2016-06-08', 'GuiltyKiss', '/aqours/5.jpg', '2017-04-03 17:28:37', '0', '2017-04-03', '11');
+INSERT INTO `song` VALUES ('weishu', '未熟DREAMER', '2016-09-14', 'Aqours', '/aqours/9.jpg', '2017-04-03 17:34:47', '0', '2017-04-03', '19');
+INSERT INTO `song` VALUES ('xiangyi', '想いよひとつになれ', '2016-11-09', 'Aqours', '/aqours/12.jpg', '2017-04-03 17:35:51', '0', '2017-04-03', '21');
+INSERT INTO `song` VALUES ('yekong', '夜空はなんでも知ってるの', '2016-05-11', 'CYaRon!', '/aqours/3.jpg', '2017-04-03 17:26:50', '1', '2017-04-03', '8');
